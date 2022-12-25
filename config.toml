@@ -1,0 +1,31 @@
+baseURL = "https://sahala.org"
+languageCode = "en-us"
+defaultContentLanguage = "en-us"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+title = "sahala.org"
+copyright = ":copyright: ejs 2004-2022"
+
+[author]
+  name = "e.j. sahala (they/them)"
+  headline = "_these_ are the links you're looking for?"
+  image = "images/ejs.jpg"
+  links = [
+    { portfolio = { href = "https://ejs.sh", text = "my homepage/portfolio" } },
+    { linkedin = { href = "https://linkedin.com/in/ejsdotsh", text = "my linkedin" } },
+    { github = { href = "https://github.com/ejsdotsh", text = "my github" } },
+    { blog = { href = "https://ejs.wtf", text = "my blog" } },
+    { reddit = { href = "https://reddit.com/user/ejsdotsh", text = "my reddit" } },
+    { contact = { href = "mailto:links@sahala.org", text = "write me" } },
+    { github = { href = "https://github.com/ejsdotsh/sahala.org", text = "source for this site" } },
+  ]
+
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark]
+  [markup.goldmark.renderer]
+    unsafe = true
+
