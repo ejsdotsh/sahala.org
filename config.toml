@@ -17,6 +17,7 @@ copyright = ":copyright: ejs 2004-2022"
     { linkedin = { href = "https://linkedin.com/in/ejsdotsh", text = "my linkedin" } },
     { github = { href = "https://github.com/ejsdotsh", text = "my github" } },
     { blog = { href = "https://ejs.wtf", text = "my blog" } },
+    { slack = { href = "https://ejsdotsh.slack.com/team/ejs", text = "my slack" } },
     { reddit = { href = "https://reddit.com/user/ejsdotsh", text = "my reddit" } },
     { contact = { href = "mailto:links@sahala.org", text = "write me" } },
     { github = { href = "https://github.com/ejsdotsh/sahala.org", text = "source for this site" } },
