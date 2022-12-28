@@ -6,7 +6,7 @@ enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 
 title = "sahala.org"
-copyright = ":copyright: ejs 2004-2022"
+copyright = ":copyright: ejs 2003-2022"
 
 [author]
   name = "e.j. sahala (they/them)"
